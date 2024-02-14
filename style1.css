@@ -35,10 +35,6 @@ Version:1.0
 20. 404 Error CSS
 21. Footer CSS
 ========================================*/
-body {
-	background-color: #202020;
-}
-
 .color-plate {
 	position: fixed;
 	display: block;
@@ -606,14 +602,11 @@ body {
 	color:#fff;
 }
 .header.shop{
-	background:#202020;
+	background:#fff;
 }
 .header.shop .nav-inner {
 	margin: 0;
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	background-color: #202020;
+	float: left;
 }
 .header.shop .topbar {
 	background-color: #fff;
@@ -646,7 +639,7 @@ body {
 	width: 460px;
 	height: 40px;
 	display: inline-block;
-	background: #202020;
+	background: #fff;
 	position: relative;
 }
 .header.shop .search-bar {
@@ -745,7 +738,7 @@ body {
 }
 .header.shop .middle-inner {
 	padding: 20px 0;
-	background: #202020;
+	background: #fff;
 	border-top: 1px solid #eee;
 }
 .header.shop.v3 .middle-inner {
@@ -954,7 +947,7 @@ body {
 	color: #fff;
 	text-transform: capitalize;
 	font-size: 15px;
-	padding: 10px 30px;
+	padding: 20px 15px;
 	font-weight: 500;
 	display: block;
 	position: relative;
@@ -964,7 +957,7 @@ body {
 }
 .header.shop .nav li:hover a{
 	color:#fff;
-	/* background:#F7941D; */
+	background:#F7941D;
 }
 .header.shop.v2 .nav li:hover a{
 	color:#F7941D;
