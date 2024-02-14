@@ -1,0 +1,84 @@
+.preloader {
+  display: none;
+}
+
+
+.logologo  {
+  margin-top: 30px;
+  display: inline-block;
+  font-family:Russo One;
+  color: #ffffff;
+  font-size: 4em;
+  padding: 10px;
+}
+
+.logologo  a {
+  padding: 10px;
+}
+
+.memberInfo {
+  display: flex;
+  
+}
+
+.memberInfo > li {
+  display: inline-block;
+  position: relative;
+  top: 10px;
+  left: 260px;
+}
+.memberInfo > li > a {
+  display:block; position:relative; padding-bottom:19px;
+  margin: 50px;
+}
+.memberInfo > li > a > i {
+  font-size: 2em;
+  color: #ffffff;
+  padding: 3px;
+}
+.memberInfo > li > a > span {
+color:#ffffff; line-height:1.462em; white-space:nowrap;
+transform:translate(-50%, 0);
+position:absolute; bottom:0; left:50%;
+}
+
+.navbar-collapse {
+  display: flex;
+}
+
+.header.shop .nav li.active a {
+  background-color: #202020 !important
+}
+
+/* search form */
+
+.search {
+  border-bottom: solid  2px #ffffff;
+}
+
+.search > form  > input {
+  border: none;
+  background-color: #202020;
+  color: #ffffff;
+}
+
+.search > form  > input:focus {
+  border: none ;
+}
+input::placeholder {
+  color: #ffffff;
+  font-size: 1.2em;
+}
+
+.serch input
+
+
+/* search button */
+.button {
+  background-color: #20202000;
+  border: none;
+}
+.search > form > button > i {
+  font-size:1.5em;
+  color: #ffffff;
+}
